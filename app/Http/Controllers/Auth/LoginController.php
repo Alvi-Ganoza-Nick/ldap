@@ -46,9 +46,9 @@ class LoginController extends Controller
             'password' => $request->get('password'),
         ];
     }
-
+    /* 
     public function username()
     {
         return 'username';
-    }
+    }*/
 }
